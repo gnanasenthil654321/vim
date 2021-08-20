@@ -191,17 +191,10 @@ augroup pythonFold
 			  
 augroup END
 
-"augroup addSkeletonToTex
-"  autocmd!
-"  autocmd BufNewFile,BufReadPre *.tex filetype on
-"  autocmd BufNewFile *.tex 0r ~/Documents/vim/VimSkeletalCode/tex/skeleton.tex 
-"  autocmd FileType tex nnoremap <buffer> <localleader>c <esc>^i%<esc> 
-"augroup END
-
 augroup beamer
   autocmd!
   autocmd BufNewFile,BufReadPre *.tex filetype on
-  autocmd BufNewFile *.tex 0r ~/Documents/vim/VimSkeletalCode/tex/skeleton.tex
+  autocmd BufNewFile *.tex 0r ~/Programming/vim/VimSkeletalCode/tex/skeleton.tex
   autocmd FileType tex nnoremap <localleader>f i%{{{<cr>%}}}<esc>k4li
   autocmd BufEnter *.tex nnoremap <localleader>i i\includegraphics[width=.8\textwidth,height=.8\textheight,keepaspectratio]{}<esc>i
 augroup END
