@@ -42,6 +42,12 @@ endif
 Plugin 'jistr/vim-nerdtree-tabs'
 
 Plugin 'vim-airline/vim-airline'
+
+Plugin 'mjbrownie/django_completeme'
+
+Plugin 'jiangmiao/auto-pairs'
+
+
 " "
 """ YouCompleteMe
 ""let g:ycm_key_list_previous_completion=['<Up>']
