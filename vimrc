@@ -32,13 +32,6 @@ Plugin 'altercation/vim-colors-solarized'
 
 Plugin 'scrooloose/nerdtree'
 
-if has('gui_running')
-  set background=dark
-  colorscheme solarized
-else
-  colorscheme zenburn
-endif
-
 Plugin 'jistr/vim-nerdtree-tabs'
 
 Plugin 'vim-airline/vim-airline'
@@ -47,6 +40,11 @@ Plugin 'mjbrownie/django_completeme'
 
 Plugin 'jiangmiao/auto-pairs'
 
+Plugin 'dracula/vim'
+
+"Tabularize plugin for aligning equal to signs et
+
+colorscheme dracula
 
 " "
 """ YouCompleteMe
